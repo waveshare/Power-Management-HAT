@@ -22,14 +22,14 @@ echo '==========================================================================
 #sudo apt-get update && sudo apt-get upgrade -y
 
 
-echo 'Begin Installation ? (y/n) '
-read ReadyInput
-if [[ "$ReadyInput" == "Y" || "$ReadyInput" == "y" ]]; then
-    echo "Beginning installation..."
-else
-    echo "Aborting installation"
-    exit 0
-fi
+# echo 'Begin Installation ? (y/n) '
+# read ReadyInput
+# if [[ "$ReadyInput" == "Y" || "$ReadyInput" == "y" ]]; then
+#     echo "Beginning installation..."
+# else
+#     echo "Aborting installation"
+#     exit 0
+# fi
 
 ##-------------------------------------------------------------------------------------------------
 ##-------------------------------------------------------------------------------------------------
