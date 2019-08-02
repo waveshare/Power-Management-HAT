@@ -63,7 +63,7 @@ fi
 
 ##-------------------------------------------------------------------------------------------------
 # complete
-echo "Sleepy Pi setup complete!"
+echo "PowerManagementHAT setup complete!"
 echo  "Would you like to reboot now? y/n"
 read RebootInput
 if [[ "$RebootInput" == "Y" || "$RebootInput" == "y" ]]; then
