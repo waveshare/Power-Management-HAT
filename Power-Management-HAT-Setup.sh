@@ -71,6 +71,7 @@ if [[ "$RebootInput" == "Y" || "$RebootInput" == "y" ]]; then
     sleep 3
     reboot
 fi
+echo "if not reboot correctly, please reboot it mannually!!!"
 exit 0
 ##-------------------------------------------------------------------------------------------------
 
