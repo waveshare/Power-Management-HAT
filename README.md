@@ -22,7 +22,7 @@ This project only used for Power-Management-HAT, a brife guide to tell you how t
 2. Secondly, Download the shell Script:
 
 ```sh
-wget https://raw.githubusercontent.com/waveshare/Power-Management-HAT/master/Power-Management-HAT-Setup.sh
+sudo wget https://raw.githubusercontent.com/waveshare/Power-Management-HAT/master/Power-Management-HAT-Setup.sh
 ```
 
 3. Then, Make it executable by: 
@@ -43,7 +43,7 @@ Copy and paste the following code to command console.
 
 ```sh
 cd /usr/src
-wget https://raw.githubusercontent.com/waveshare/Power-Management-HAT/master/Power-Management-HAT-Setup.sh
+sudo wget https://raw.githubusercontent.com/waveshare/Power-Management-HAT/master/Power-Management-HAT-Setup.sh
 chmod a+x Power-Management-HAT-Setup.sh
 sudo ./Power-Management-HAT-Setup.sh
 exit
