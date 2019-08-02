@@ -14,7 +14,7 @@ fi
 echo '================================================================================ '
 echo '|                                                                               |'
 echo '|                           Waveshare Electronic Team                           |'
-echo '|             Sleepy-Pi-Hat Installation Script - Raspbian only                 |'
+echo '|             Power-Management-HAT Installation Script - Raspbian only                 |'
 echo '|                                                                               |'
 echo '================================================================================ '
 
