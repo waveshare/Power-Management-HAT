@@ -1,0 +1,26 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+menu.cpu=Processor
+
+##############################################################
+
+PowerManagementHAT.name=PowerManagementHAT
+
+PowerManagementHAT.upload.tool=avrdude
+PowerManagementHAT.upload.protocol=arduino
+PowerManagementHAT.upload.maximum_size=30720
+PowerManagementHAT.upload.speed=57600
+
+PowerManagementHAT.bootloader.low_fuses=0xFF
+PowerManagementHAT.bootloader.high_fuses=0xDA
+PowerManagementHAT.bootloader.extended_fuses=0x05
+PowerManagementHAT.bootloader.path=arduino:atmega
+PowerManagementHAT.bootloader.file=atmega/ATmegaBOOT_168_atmega328_pro_8MHz.hex
+PowerManagementHAT.bootloader.unlock_bits=0x3F
+PowerManagementHAT.bootloader.lock_bits=0x0F
+
+PowerManagementHAT.build.mcu=atmega328p
+PowerManagementHAT.build.f_cpu=8000000L
+PowerManagementHAT.build.board=PowerManagementHAT
+PowerManagementHAT.build.core=arduino
+PowerManagementHAT.build.variant=standard
