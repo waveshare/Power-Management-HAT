@@ -48,4 +48,4 @@ chmod a+x Power-Management-HAT-Setup.sh
 sudo ./Power-Management-HAT-Setup.sh
 exit
 ```
-Then press "Enter" to execute those commander.
+Then press "Enter" to execute those command.
