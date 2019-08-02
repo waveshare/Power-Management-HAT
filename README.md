@@ -42,7 +42,6 @@ Or you can just do this:
 Copy and paste the following code to command console.
 
 ```sh
-cd /usr/src
 sudo wget https://raw.githubusercontent.com/waveshare/Power-Management-HAT/master/Power-Management-HAT-Setup.sh
 sudo chmod a+x Power-Management-HAT-Setup.sh
 sudo ./Power-Management-HAT-Setup.sh
